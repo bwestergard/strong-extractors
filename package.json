@@ -1,0 +1,38 @@
+{
+  "name": "strong-extractors",
+  "version": "0.0.1",
+  "description": "Useful primitives for runtime validation of Flow types.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwestergard/strong-extractors.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.74.0"
+  },
+  "keywords": [
+    "flow",
+    "runtime",
+    "validation",
+    "json",
+    "schema",
+    "strongjson"
+  ],
+  "author": "Bjorn Westergard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bwestergard/strong-extractors/issues"
+  },
+  "homepage": "https://github.com/bwestergard/strong-extractors#readme",
+  "dependencies": {
+    "minimal-result": "^1.0.3"
+  }
+}
